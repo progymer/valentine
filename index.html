@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Valentine's </title>
+    <style>
+        body{
+            background-color: #12303b;
+        }
+        
+        h1{
+           display: block;
+           text-align: center; 
+           margin-top: 5%;
+           color: white;
+        }
+        #gif{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50%;
+        }
+        .parent{
+            display: flex;
+        }
+        .jc-center {
+            justify-content: center;
+        }
+        .Yes{
+              background-color: grey;
+              font-size: 12px;
+              margin-right: 20px;
+        
+        }
+        .Yes:hover{
+                transform: scale(2);
+        }
+        #No{
+            background-color: red;
+            font-size: 12px;
+        }
+      
+    </style>
+</head>
+
+<body>
+    <img  id="gif" src="giphy.gif" alt="lovvee" style="width: 50%;height: auto;">
+    <h1>Will you be my valentine?</h1>
+    <div class="parent jc-center">
+    <a href="yes.html">
+    <button type="button" class="Yes">
+        Yes
+     </button>
+     </a>
+     <button type="button" id="No" >
+       <span> NO </span> 
+     </button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
